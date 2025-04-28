@@ -44,6 +44,20 @@ Using real-world survey data (NHANES), we apply machine learning (XGBoost) to re
 
 ---
 
+## Why XGBoost?
+
+XGBoost (Extreme Gradient Boosting) was chosen for this project because:
+
+- **High Performance**: XGBoost is known for its exceptional predictive accuracy, especially in regression tasks like BAC estimation.
+- **Handles Missing Values**: Survey data often contains missing or noisy entries. XGBoost can automatically handle missing values during training.
+- **Feature Importance**: XGBoost provides built-in ways to measure feature importance, helping explain how age, sex, drinking habits, and weight affect BAC.
+- **Fast and Efficient**: The 'hist' tree method used in this project allows XGBoost to build models very quickly, even on large datasets.
+- **Robust to Overfitting**: With parameters like regularization (`lambda`, `alpha`) and tree depth control, XGBoost can reduce the risk of overfitting to noisy health survey data.
+
+Overall, XGBoost provided a strong balance between accuracy**, speed, and interpretability for modeling real-world alcohol consumption patterns and predicting BAC levels.
+
+---
+
 ## Technologies Used
 - Python 3.11+
 - Pandas
