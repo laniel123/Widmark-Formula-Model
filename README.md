@@ -8,7 +8,7 @@
 This project builds a predictive model to estimate Blood Alcohol Content (BAC) using the **Widmark Formula**. 
 It combines user demographic information and drinking behavior to predict BAC levels and classify intoxication stages.
 
-Using real-world survey data (NHANES 2015-2016), we apply machine learning (XGBoost) to refine BAC estimations based on features like:
+Using real-world survey data (NHANES 2015-2016), I apply machine learning (XGBoost) to refine BAC estimations based on features like:
 - Sex
 - Age
 - Weight
